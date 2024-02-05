@@ -1,0 +1,23 @@
+title: Example (CC0)
+author: John Smith
+additional_authors: Jane Doe
+license: CC0
+
+char_obj: ExampleHuman
+basis: Default
+
+custom_morph_order: true
+recurse_materials: true
+
+armature_defaults:
+    type: regular
+    file: rigs.blend
+
+armature:   
+   mixamo:
+    title: Mixamo (Game-Ready)
+    type: regular
+    file: rigs.blend
+    obj_name: Mixamo
+    weights: weights/mixamo.npz
+    joints: joints/mixamo.npz
